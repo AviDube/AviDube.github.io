@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Avi Dube"
   avatar : "/assets/images/tsa.jpg"
-  bio    : "std::cout << "Hello World" << std::endl I love robots"
+  bio    : "Hello world I love robots"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
