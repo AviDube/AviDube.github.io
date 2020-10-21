@@ -58,11 +58,11 @@ plugins:
 author:
   name   : "Avi Dube"
   avatar : "/assets/images/tsa.jpg"
-  bio    : "Hello World I love robots"
+  bio    : "std::cout << "Hello World" std::endl; I love robots"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://https://1961z.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
