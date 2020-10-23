@@ -8,6 +8,6 @@ tags:
   - update
 ---
 
-```c++
+```C++
 std::cout << "hello world!" << std::endl;
 ```
