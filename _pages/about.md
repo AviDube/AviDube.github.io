@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
 ---
 
 Hello My name is Avi Dube this websites purpose is to be a separate resume for all the cool things I do.
