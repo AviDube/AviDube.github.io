@@ -1,3 +1,3 @@
-# Minimal Mistakes remote theme starter
+# Website timeee
 
 My wesbite for my profile
