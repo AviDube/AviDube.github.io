@@ -8,6 +8,6 @@ tags:
   - quote
 ---
 
-Video to my very first coding tutorial. Hope you like it :).
+Video to my very first coding tutorial.
 
 {% include video id="ZEg5EpujMKA" provider="youtube" %}
