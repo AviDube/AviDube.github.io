@@ -2,8 +2,8 @@
 title: "Miscellaneous"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  image: /assets/images/youtubevideos.png
-  teaser: /assets/images/typingtest.png
+  image: /assets/images/youtubevideos.PNG
+  teaser: /assets/images/typingtest.PNG
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250

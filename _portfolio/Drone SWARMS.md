@@ -2,7 +2,7 @@
 title: "Drone SWARMS"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  image: /assets/images/airsimcapture.png
+  image: /assets/images/airsimcapture.PNG
   teaser: /assets/images/airsimscreen.png
 sidebar:
   - title: "Role"

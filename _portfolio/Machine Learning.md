@@ -2,8 +2,8 @@
 title: "Machine Learning"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  image: /assets/images/trainedalgo.png
-  teaser: /assets/images/ML.png
+  image: /assets/images/trainedalgo.PNG
+  teaser: /assets/images/ML.PNG
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
