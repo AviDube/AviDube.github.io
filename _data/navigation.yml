@@ -1,9 +1,7 @@
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Tags"
-    url: /tags/
+  - title: "Posts"
+    url: /posts/
   - title: "About"
     url: /about/
