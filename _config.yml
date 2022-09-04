@@ -16,7 +16,7 @@
 title: Avi Dube
 email: dubea@purdue.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a website all about my life.
+  A website to showcase my experience.
 github_username: AviDube
 minimal_mistakes_skin: dark
 search: true
@@ -138,7 +138,7 @@ plugins:
 author:
   name   : "Avi Dube"
   avatar : "/assets/images/pfp3.jpg"
-  bio    : "Computer Enginnering Student at Purdue Universty just looking to make a difference."
+  bio    : "Computer Engineering Student at Purdue University just looking to make a difference."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
