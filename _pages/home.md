@@ -4,7 +4,7 @@ permalink: /
 hidden: false
 header:
   overlay_color: "#0f0f0f"
-  overlay_image: /assets/images/combinednew.png
+  overlay_image: /assets/images/websiteheader.png
 excerpt: >
   A Drone and Robot Programmer
 feature_row:
@@ -15,7 +15,7 @@ feature_row:
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Dive into my projects"
-  - image_path: /assets/images/journal2.jpg
+  - image_path: /assets/images/blog.png
     alt: "posts"
     title: "Blog"
     excerpt: "My Blog where I dive deeper into my thought process, struggles, and learnings while working on my projects."
