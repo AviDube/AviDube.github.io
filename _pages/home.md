@@ -4,9 +4,9 @@ permalink: /
 hidden: false
 header:
   overlay_color: "#0f0f0f"
-  overlay_image: /assets/images/combined.png
+  overlay_image: /assets/images/combinednew.png
 excerpt: >
-  Computer Engineering Student at Purdue University
+  A Drone and Robot Programmer
 feature_row:
   - image_path: /assets/images/vex.jpg
     alt: "Portfolio"

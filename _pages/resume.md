@@ -3,7 +3,7 @@ layout: single
 title: "Resume"
 classes: wide
 permalink: /resume/
-author_profile: TRUE
+author_profile: True
 ---
 
-<embed src="/assets/downloads/AviDubeResume.pdf" type="application/pdf" />
+<embed src="/assets/downloads/AviDubeResume.pdf" type="application/pdf" height="375"/>
