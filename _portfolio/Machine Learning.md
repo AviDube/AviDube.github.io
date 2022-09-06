@@ -1,14 +1,9 @@
 ---
 title: "Machine Learning"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: "A culmination of projects I have worked on that utilize the power of machine learning"
 header:
   image: /assets/images/trainedalgo.PNG
   teaser: /assets/images/ML.PNG
-sidebar:
-  - title: "Role"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg

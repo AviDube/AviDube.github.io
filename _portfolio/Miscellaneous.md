@@ -1,6 +1,6 @@
 ---
 title: "Miscellaneous"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: "A grouping of projects that I worked on for classes, as a side project or to help a specific community."
 header:
   image: /assets/images/youtubevideos.PNG
   teaser: /assets/images/typingtest.PNG

@@ -1,6 +1,6 @@
 ---
 title: "Robotics"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: "A showcase of all my accomplishments on the robotics team 1961Z as the lead programmer."
 header:
   image: /assets/images/vexfeild.jpg
   teaser: /assets/images/roboticstrophy.jpg

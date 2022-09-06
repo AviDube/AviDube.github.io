@@ -1,29 +1,54 @@
 ---
-title: "Drone SWARMS"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "SWARMS"
+date: 2022-08-25
+excerpt: "A research project to create an easy-to-use, scalable, web-based multi-agent drone simulation platform."
+toc : true
+toc_label: "Table of Contents"
 header:
   image: /assets/images/airsimcapture.PNG
   teaser: /assets/images/airsimscreen.png
 sidebar:
   - title: "Role"
-    text: "Designer, Front-End Developer"
+    text: "Team Lead, Obstacle Avoidance / Control Systems Developer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Working on obstacle avoidance and low level controllers."
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - url: /assets/images/Airsimslope.jpg
+    image_path: /assets/images/Airsimslope.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+  - url: /assets/images/airsimexplenation.jpg
+    image_path: /assets/images/airsimexplenation.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+  - url: /assets/images/Airsimtop.jpg
+    image_path: /assets/images/Airsimtop.jpg
     alt: "placeholder image 3"
 ---
+# Introduction
+The SWARM Simulation Platform was built from the ground up to solve the major issue with building simulations for multi-agent robotic system. Many researchers, graduate students and companies spend weeks or months building the same infrastructure that utilizes the same systems as before. Our research reduces the amount of time actually spent working on algorithm development and increases research and development costs.
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+# Website
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+Our website: [swarmsim.io](https://www.swarmsim.io/)
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
-Foote
+# My Contributions
+
+## Obstacle Avoidance
+In my first year working on the project I was assigned on getting a basic OA algorithm up and running. To do this I started off with a simple approach which I called slope following. The basic idea behind it is that the lidar will detect a slope of an object and taking the highest and lowest point of that data we can figure out the slope of an object. This allows the drone to successfully go above objects or follow steep terrain.
+
+{% include gallery class = "full" %} 
+{% include video id="10buVuqaaxrs1ZgT3NYo0XL0e0ZXHDLvi" provider="google-drive" %}
+
+## Control Systems
+I also worked on revamping the control system algorithm we were using the reason being that it caused a lot of jerk making the drone unstable. So I created a low level PID system that allows for the drone to be controlled on a roll, pitch, and yaw level. This not only gives extraordinary performance but allows for more custamazitation from a user. 
+
+<img src="/assets/images/pidstruct.PNG" alt="">
+{% include video id="1fRGYJ5szuXEYH9iyLcEeP8wejX8qYbcG" provider="google-drive" %}
+
+## In Development
+Currently me and my teammate are working on a more advanced obstacle algorithm. It utilizes a safety sphere to create a safe distance between the drone and the obstacle. Then to determine the best way to go around the object a cube is drawn. Then a point that is closest to the drones position and goal are picked from the cubes edges. This algorithm is still being implemented in Airsim and our future aspirations are to write a research paper to showcase our findings to like minded people.
+
+<img src="/assets/images/newalgo.png" alt="">
+
+# Leadership
+I am currently the team lead researcher. Some of my responsibilities have been to recruit new members I have been cold emailing different departments at our school asking for students interested in our project with certain skills. So far we have been able to recruit 5 new members helping us maintain/update our website and develope new features for users. I am also tasked with running meetings and making sure each member is assigned a task with and assist them if they ever run into any issues.
+
