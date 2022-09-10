@@ -1,14 +1,12 @@
 ---
 title: "Miscellaneous"
 excerpt: "A grouping of projects that I worked on for classes, as a side project or to help a specific community."
+date: 2022-05-05
 header:
   image: /assets/images/youtubevideos.PNG
   teaser: /assets/images/typingtest.PNG
-sidebar:
-  - title: "Role"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+toc : true
+toc_label: "Table of Contents"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg

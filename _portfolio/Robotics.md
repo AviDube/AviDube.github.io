@@ -1,14 +1,17 @@
 ---
 title: "Robotics"
 excerpt: "A showcase of all my accomplishments on the robotics team 1961Z as the lead programmer."
+date: 2021-06-20
 header:
   image: /assets/images/vexfeild.jpg
   teaser: /assets/images/roboticstrophy.jpg
+toc : true
+toc_label: "Table of Contents"
 sidebar:
   - title: "Role"
-    text: "Designer, Front-End Developer"
+    text: "Lead Programmer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Creating autonomous programs to control the robot."
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
