@@ -40,7 +40,11 @@ Change Up was one of the best years we had as a team we all took the culmination
 [Due to copyright you can only view on youtube](https://www.youtube.com/watch?v=d9h7BAPcd7o)
 
 ### Coding Notebook:
-<embed src="/assets/downloads/CodingNotebook.pdf" type="application/pdf" height="375"/>
+<object data="/assets/downloads/CodingNotebook.pdf" type="application/pdf" height="375">
+  <p>Your web browser doesn't have a PDF plugin.
+  Instead you can <a href="/assets/downloads/CodingNotebook.pdf">click here to
+  download the PDF file.</a></p>
+</object>
 
 ### Autonomous routines:
 
