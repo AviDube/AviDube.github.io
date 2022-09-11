@@ -19,9 +19,26 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+# Introduction
+This is just a collection of projects that I worked on that don't fit under a main category. Mostly were either class projects or videos I posted for the robotics community.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+# Projects
+## Youtube Videos
+For robotics I created a video series for beginners to learn robotics coding. This way they don't have to struggle like I did in robotics when I couldn't find any resources online.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
-Foote
+{% include video id="ZEg5EpujMKA" provider="youtube" %}
+
+## This website
+This website was another project I started on to showcase my portfolio for interviewers to see the projects I have worked on.
+
+<img src="/assets/images/websitePic.PNG" alt="">
+
+## Typing Test
+This was a project I worked on for my Engr 133 class that I have to take during my freshmen year. For the individual project I created a typing test for me to practice my own typing skills and to improve from it. I programmed it in python and it took me 2 days to build the backend and another day to get the gui to work. 
+
+<img src="/assets/images/typingTestGui.PNG" alt="">
+How the gui/user interface looked when someone would be practicing their typing.
+
+<img src="/assets/images/typingTestSpeed.PNG" alt="">
+The results screen the user would see once done with the typing test.
+

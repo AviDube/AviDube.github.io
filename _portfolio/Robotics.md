@@ -11,22 +11,49 @@ sidebar:
   - title: "Role"
     text: "Lead Programmer"
   - title: "Responsibilities"
-    text: "Creating autonomous programs to control the robot."
+    text: "Creating autonomous programs to control a robot."
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+  - url: /assets/images/robotics/sim1.png
+    image_path: /assets/images/robotics/sim1.png
+    alt: "A view of the field that we modeled and imported into Unity"
+  - url: /assets/images/robotics/sim2.png
+    image_path: /assets/images/robotics/sim2.png
+    alt: "A view of the modeled robot and how it looks in the field"
 ---
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+# Introduction
+Videos and pictures of my autonomous routines and robots over the 4 year period I competed in VEX Robotics as team 1961Z.
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+# Simulation Platform
+This project was an attempt to create a simulated environment in Unity to help train a machine learning algorithm. Then to port this algorithm into our competition robot and see how it would react. While I was not able to finish this project as I transitioned to college this was my stepping point into the research that I work on now with Drone SWARMS and how they are simulated.
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
-Foote
+{% include gallery class = "full" %} 
+{% include video id="1GeZJT0fHURkNoi2cqd_rKZ_eprQLhyW2" provider="google-drive" %}
+
+# The Years
+
+## Change Up 2020 - 2021
+Change Up was one of the best years we had as a team we all took the culmination of failures and success over the years and built / coded a robot that show cased that learning.
+
+### Reveal Video: 
+<img src="/assets/images/robotics/youtubevid.PNG" alt="">
+[Due to copyright you can only view on youtube](https://www.youtube.com/watch?v=d9h7BAPcd7o)
+
+### Coding Notebook:
+<embed src="/assets/downloads/CodingNotebook.pdf" type="application/pdf" height="375"/>
+
+### Autonomous routines:
+
+This showcases the auto-indexing feature which allows for the balls to be put at the specific height with out user input:
+{% include video id="1BkdR4U_-myzJaQFydzzdAbOGfMaR588m" provider="google-drive" %}
+
+This showcases the 1 minute autonomous routine:
+{% include video id="1bHXHwo3Ci8roVDcTjA87VEiuPJTCJunR" provider="google-drive" %}
+
+These videos showcase the 15 second autonomous routines:
+{% include video id="1aig5Bqxht0xk6Vl-ffOrjTFLbld8ViGB" provider="google-drive" %}
+{% include video id="18SelQMvBqzqZmyJSP0cRVSYp8j1g4pUE" provider="google-drive" %}
+
+
+
+
