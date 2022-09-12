@@ -28,7 +28,7 @@ Videos and pictures of my autonomous routines and robots over the 4 year period 
 This project was an attempt to create a simulated environment in Unity to help train a machine learning algorithm. Then to port this algorithm into our competition robot and see how it would react. While I was not able to finish this project as I transitioned to college this was my stepping point into the research that I work on now with Drone SWARMS and how they are simulated.
 
 {% include gallery class = "full" %} 
-{% include video id="1GeZJT0fHURkNoi2cqd_rKZ_eprQLhyW2" provider="google-drive" %}
+{% include video id="18oAUsvzOuGQGvWaq0bD8fYWvH1-FBhYV" provider="google-drive" %}
 
 # The Years
 
@@ -52,7 +52,7 @@ This showcases the 1 minute autonomous routine:
 
 These videos showcase the 15 second autonomous routines:
 {% include video id="1aig5Bqxht0xk6Vl-ffOrjTFLbld8ViGB" provider="google-drive" %}
-{% include video id="18SelQMvBqzqZmyJSP0cRVSYp8j1g4pUE" provider="google-drive" %}
+{% include video id="1DDO2Z4P4jW9dHR3HW2_3KdaNPjsWzVGv" provider="google-drive" %}
 
 
 
