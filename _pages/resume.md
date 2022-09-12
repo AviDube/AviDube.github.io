@@ -11,3 +11,4 @@ author_profile: True
   Instead you can <a href="/assets/downloads/AviDubeResume.pdf">click here to
   download the PDF file.</a></p>
 </object>
+(Note if on phone reload page to view.)
