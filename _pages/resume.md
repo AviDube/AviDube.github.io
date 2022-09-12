@@ -6,5 +6,7 @@ permalink: /resume/
 author_profile: True
 ---
 
-<embed src="/assets/downloads/AviDubeResume.pdf" type="application/pdf" height="375"/>
-(Note if on phone reload page to view PDF)
+<p>Your web browser doesn't have a PDF plugin.
+  Instead you can <a href="/assets/downloads/AviDubeResume.pdf">click here to
+  download the PDF file.</a></p>
+</object>
