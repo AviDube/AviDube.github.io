@@ -28,7 +28,7 @@ Videos and pictures of my autonomous routines and robots over the 4 year period 
 This project was an attempt to create a simulated environment in Unity to help train a machine learning algorithm. Then to port this algorithm into our competition robot and see how it would react. While I was not able to finish this project as I transitioned to college this was my stepping point into the research that I work on now with Drone SWARMS and how they are simulated.
 
 {% include gallery class = "full" %} 
-{% include video id="18oAUsvzOuGQGvWaq0bD8fYWvH1-FBhYV" provider="google-drive" %}
+{% include video id="11j6wgztJW_OUjx5Knv7tbsunH01Qdg46" provider="google-drive" %}
 
 # The Years
 
