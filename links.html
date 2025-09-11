@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Amikosh Dube | Links</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 antialiased">
+    <div class="container mx-auto max-w-lg p-4 md:p-6 min-h-screen flex flex-col items-center justify-center">
+
+        <header class="text-center mb-8">
+            <img src="assets/images/unnamed.png" alt="Profile Picture" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white dark:border-gray-700 shadow-lg">
+            
+            <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Amikosh Dube</h1>
+            
+            <p class="text-lg text-gray-600 dark:text-gray-400 mt-2">M.S. Student @ CMU in Computer Engineering Aspiring Intern in General Purpose Robotics</p>
+        </header>
+
+        <main id="links-container" class="w-full space-y-4">
+            <!-- Links will be dynamically inserted here -->
+        </main>
+
+        <footer class="text-center mt-12 text-gray-500 dark:text-gray-500">
+            <p>&copy; <span id="year"></span> Amikosh Dube. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // To add a new icon, find it on https://lucide.dev/ and copy the name.
+        const userLinks = [
+            {
+                title: "LinkedIn Profile",
+                url: "https://www.linkedin.com/in/amikoshdube",
+                icon: "linkedin"
+            },
+            {
+                title: "View My Resume",
+                url: "/assets/downloads/Amikosh_Dube_Resume_2025.pdf",
+                icon: "file-text"
+            },
+            {
+                title: "Personal Website",
+                url: "https://avidube.github.io/",
+                icon: "globe"
+            },
+            {
+                title: "GitHub",
+                url: "https://github.com/AviDube",
+                icon: "github"
+            },
+            // Example of a new link:
+            // {
+            //     title: "My Portfolio",
+            //     url: "https://your-portfolio.com",
+            //     icon: "folder-kanban"
+            // }
+        ];
+        // --- END CUSTOMIZATION AREA ---
+
+        const linksContainer = document.getElementById('links-container');
+
+        userLinks.forEach(link => {
+            const linkElement = document.createElement('a');
+            linkElement.href = link.url;
+            linkElement.target = "_blank";
+            linkElement.rel = "noopener noreferrer";
+            linkElement.className = "group flex items-center w-full p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:scale-105 transform transition-transform duration-300 ease-in-out border border-gray-200 dark:border-gray-700";
+
+            const iconContainer = document.createElement('div');
+            iconContainer.className = "w-10";
+            const iconElement = document.createElement('i');
+            iconElement.setAttribute('data-lucide', link.icon);
+            iconElement.className = "w-6 h-6 text-gray-500 dark:text-gray-400 group-hover:text-blue-500 transition-colors duration-300";
+            iconContainer.appendChild(iconElement);
+
+            const titleElement = document.createElement('span');
+            titleElement.textContent = link.title;
+            titleElement.className = "flex-grow text-center font-semibold text-lg text-gray-700 dark:text-gray-200";
+
+            linkElement.appendChild(iconContainer);
+            linkElement.appendChild(titleElement);
+            linksContainer.appendChild(linkElement);
+        });
+
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
