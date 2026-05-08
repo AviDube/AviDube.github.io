@@ -2,10 +2,11 @@
 title: "Machine Learning"
 excerpt: "A culmination of projects I have worked on that utilize the power of machine learning."
 date: 2021-07-25
+permalink: /portfolio/machine-learning/
 header:
   image: /assets/images/trainedalgo.PNG
   teaser: /assets/images/ML.PNG
-toc : true
+toc: true
 toc_label: "Table of Contents"
 ---
 

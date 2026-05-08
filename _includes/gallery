@@ -1,0 +1,17 @@
+{% if include.id %}
+  {% assign gallery_images = page[include.id] %}
+{% else %}
+  {% assign gallery_images = page.gallery %}
+{% endif %}
+
+{% if gallery_images %}
+<div class="gallery-grid{% if include.class == 'full' %} full{% endif %}">
+  {% for image in gallery_images %}
+  <div class="gallery-item">
+    <a href="{{ image.url | relative_url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ image.image_path | relative_url }}" alt="{{ image.alt | default: '' }}" loading="lazy">
+    </a>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

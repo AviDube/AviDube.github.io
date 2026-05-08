@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/images/site.webmanifest' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/logo.PNG' | relative_url }}">
+
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#6366f1">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Avi Dube<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        {% for link in site.data.navigation.main %}
+        <li>
+          <a href="{{ link.url | relative_url }}" class="nav-link{% if page.url == link.url %} active{% endif %}">
+            {{ link.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main id="main">{{ content }}</main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">
+            <span class="logo-bracket">&lt;</span>Avi Dube<span class="logo-bracket">/&gt;</span>
+          </span>
+          <p class="footer-tagline">Computer Engineering @ Purdue University</p>
+        </div>
+        <div class="footer-links">
+          {% for link in site.author.links %}
+          <a href="{{ link.url }}" class="footer-social" target="_blank" rel="noopener noreferrer">
+            {{ link.label }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {{ 'now' | date: '%Y' }} Avi Dube &mdash; Built with Jekyll</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

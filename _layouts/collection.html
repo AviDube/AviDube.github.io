@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="collection-wrapper">
+
+  <div class="page-header fade-in">
+    <div class="section-header">
+      <span class="section-tag">[ // {{ page.collection | default: "posts" }} ]</span>
+      <div class="telem-line"></div>
+    </div>
+    {% if page.title %}
+    <h1 class="page-title"><span class="gradient-text">{{ page.title }}</span></h1>
+    {% endif %}
+    {% if content and content != "" %}
+    <div class="prose" style="margin-top:0.75rem; color: var(--text-dim); font-size: 0.95rem;">{{ content }}</div>
+    {% endif %}
+  </div>
+
+  {% if page.collection == "posts" or page.collection == nil %}
+    {% assign items = site.posts %}
+  {% else %}
+    {% assign items = site[page.collection] | sort: "date" | reverse %}
+  {% endif %}
+
+  {% if page.collection == "posts" %}
+  <!-- Blog list view -->
+  <div class="posts-list">
+    {% for post in items %}
+    <a href="{{ post.url | relative_url }}" class="post-card fade-in">
+      <div class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div class="post-card-title">{{ post.title }}</div>
+      {% if post.excerpt %}
+      <div class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</div>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+
+  {% else %}
+  <!-- Portfolio grid view -->
+  <div class="portfolio-grid">
+    {% for item in items %}
+    <a href="{{ item.url | relative_url }}" class="portfolio-card fade-in">
+      <div class="portfolio-card-img">
+        {% if item.header.teaser %}
+        <img src="{{ item.header.teaser | relative_url }}" alt="{{ item.title }}" loading="lazy">
+        {% else %}
+        <div class="no-image">&#9672;</div>
+        {% endif %}
+      </div>
+      <div class="portfolio-card-body">
+        <h3 class="portfolio-card-title">{{ item.title }}</h3>
+        <p class="portfolio-card-excerpt">{{ item.excerpt | strip_html | truncate: 130 }}</p>
+        <div class="portfolio-card-footer">
+          {% if item.date %}
+          <span class="portfolio-card-date">{{ item.date | date: "%Y" }}</span>
+          {% endif %}
+          <span class="portfolio-card-link">View Project &rarr;</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>

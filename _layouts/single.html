@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="single-wrapper">
+
+  {% if page.header.image %}
+  <img src="{{ page.header.image | relative_url }}" alt="{{ page.title }}" class="single-header-img">
+  {% endif %}
+
+  <!-- Main content column -->
+  <div class="single-content">
+
+    {% if page.date %}
+    <div class="single-meta fade-in">
+      <span class="meta-badge">{{ page.date | date: "%B %d, %Y" }}</span>
+      {% if page.read_time %}
+      <span class="meta-badge">{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <h1 class="single-title fade-in"><span class="gradient-text">{{ page.title }}</span></h1>
+
+    <div class="prose fade-in delay-1">
+      {{ content }}
+    </div>
+
+  </div>
+
+  <!-- Sidebar column -->
+  <aside class="single-sidebar">
+
+    {% if page.toc %}
+    <div class="toc fade-in">
+      <div class="toc-label">Table of Contents</div>
+      <ul class="toc-list" id="toc-list"></ul>
+    </div>
+    {% endif %}
+
+    {% for item in page.sidebar %}
+    <div class="sidebar-card fade-in">
+      <div class="sidebar-card-label">{{ item.title }}</div>
+      <div class="sidebar-card-value">{{ item.text }}</div>
+    </div>
+    {% endfor %}
+
+  </aside>
+
+</div>

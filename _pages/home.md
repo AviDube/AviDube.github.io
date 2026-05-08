@@ -1,34 +1,18 @@
 ---
-layout: splash
+layout: home
 permalink: /
 hidden: false
-header:
-  overlay_color: "#0f0f0f"
-  overlay_image: /assets/images/websiteheader.png
-excerpt: >
-  Drone SWARM and Robot researcher / developer
 feature_row:
-  - image_path: /assets/images/vex.jpg
+  - image_path: /assets/images/airlab/GoAero.jpg
     alt: "Portfolio"
     title: "Portfolio"
-    excerpt: "A Portfolio of projects I have worked on. These include projects like SWARMS, Robotics, Machine Learning, etc."
+    excerpt: "A collection of projects spanning drone SWARMS, robotics, machine learning, and AI vision systems."
     url: "/portfolio/"
-    btn_class: "btn--primary"
-    btn_label: "Dive into my projects"
-  - image_path: /assets/images/blog.png
-    alt: "posts"
-    title: "Blog"
-    excerpt: "A Blog where I dive deeper into my thought process, struggles, and learnings while working on my projects."
-    url: "/posts/"
-    btn_class: "btn--primary"
-    btn_label: "Read my Blog"
+    btn_label: "Explore Projects"
   - image_path: /assets/images/tsa.jpg
-    alt: "Me"
+    alt: "About Me"
     title: "About Me"
-    excerpt: "A Excerpt on who I am; my hobbies, education, and my favorite food. Also where you can gather my contact info."
+    excerpt: "Learn more about who I am, my background, and how to get in touch with me."
     url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "My Life"      
+    btn_label: "Get to Know Me"
 ---
-
-{% include feature_row %}

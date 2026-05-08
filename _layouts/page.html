@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="page-wrapper">
+  <div class="page-header fade-in">
+    {% if page.title %}
+    <h1 class="page-title"><span class="gradient-text">{{ page.title }}</span></h1>
+    {% endif %}
+  </div>
+  <div class="prose fade-in delay-1">
+    {{ content }}
+  </div>
+</div>

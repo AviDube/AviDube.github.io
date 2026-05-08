@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Miscellaneous"
 excerpt: "A grouping of projects that I worked on for classes, as a side project or to help a specific community."
 date: 2022-05-05

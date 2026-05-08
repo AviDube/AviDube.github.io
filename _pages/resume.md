@@ -1,14 +1,24 @@
 ---
-layout: single
+layout: page
 title: "Resume"
-classes: wide
 permalink: /resume/
-author_profile: True
 ---
 
-<object data="/assets/downloads/Amikosh_Dube_Resume_2025.pdf" type="application/pdf" height="375">
-  <p>Your phone doesn't have a PDF plugin.
-  Instead you can <a href="/assets/downloads/Amikosh_Dube_Resume_2025.pdf">click here to
-  download the PDF file.</a></p>
-</object>
-(Note if on phone reload page to view.)
+<div class="resume-actions">
+  <a href="/assets/downloads/Amikosh_Dube_Resume_2025.pdf" class="resume-download" download>
+    &#8659; Download PDF
+  </a>
+  <span class="resume-note">Opens inline below &mdash; or download for the full version.</span>
+</div>
+
+<div class="resume-embed-container">
+  <object
+    data="/assets/downloads/Amikosh_Dube_Resume_2025.pdf"
+    type="application/pdf"
+    class="resume-embed">
+    <p style="padding:2rem; color:var(--text-dim); text-align:center;">
+      PDF preview not available on this device. &nbsp;
+      <a href="/assets/downloads/Amikosh_Dube_Resume_2025.pdf">Click here to download.</a>
+    </p>
+  </object>
+</div>

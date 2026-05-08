@@ -5,7 +5,7 @@ excerpt: "A New Easy and Secure Way to Sell and Buy Purdue Student Section Ticke
 toc : true
 toc_label: "Table of Contents"
 header:
-  teaser: /assets/images/BTC/BTC_Logo.png
+  teaser: /assets/images/BTC/BTC_Logo.jpg
 sidebar:
   - title: "Role"
     text: "Founder / Developer"

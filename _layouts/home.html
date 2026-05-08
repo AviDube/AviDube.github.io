@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="basketball-court"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Incoming Aurora Intern
+    </div>
+
+    <h1 class="hero-title">
+      Hi, I'm <span class="gradient-text">Avi Dube</span>
+    </h1>
+
+    <p class="hero-subtitle">{{ site.subtitle }}</p>
+
+    <p class="hero-description">
+      Researching physical AI at CMU's AirLab &mdash; integrating LLMs, transformers,
+      and vision systems to build general-purpose robots. Founding Technical Lead
+      of SWARM, a drone simulation platform trusted by MIT Lincoln Lab and Alarm.com.
+    </p>
+
+    <div class="hero-actions">
+      <a href="{{ '/portfolio/' | relative_url }}" class="btn btn-primary">View My Work</a>
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-ghost">About Me</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number">M.S.</span>
+        <span class="stat-label">@ CMU ECE</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-number">6+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-number">3</span>
+        <span class="stat-label">Internships</span>
+      </div>
+    </div>
+
+    <div class="hero-interests">
+      <span class="interest-chip">&#129302; Autonomous Systems</span>
+      <span class="interest-chip interest-chip--orange">&#127936; Basketball</span>
+      <span class="interest-chip">&#128663; Car Mods</span>
+      <span class="interest-chip">&#129516; Robotics</span>
+    </div>
+  </div>
+
+  <div class="hero-scroll" aria-hidden="true">scroll</div>
+</section>
+
+<!-- Feature Cards -->
+{% if page.feature_row %}
+<section class="features">
+  <div class="section-container">
+    <div class="section-header">
+      <span class="section-tag">[ 01 / explore ]</span>
+      <div class="telem-line"></div>
+    </div>
+    <div class="features-grid">
+      {% for feature in page.feature_row %}
+      <a href="{{ feature.url | relative_url }}" class="feature-card fade-in delay-{{ forloop.index }}">
+        {% if feature.image_path %}
+        <div class="feature-img-wrap">
+          <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt | default: feature.title }}" class="feature-img" loading="lazy">
+        </div>
+        {% endif %}
+        <div class="feature-body">
+          <h3 class="feature-title">{{ feature.title }}</h3>
+          <p class="feature-excerpt">{{ feature.excerpt }}</p>
+          <span class="feature-cta">{{ feature.btn_label | default: "Learn More" }} &rarr;</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

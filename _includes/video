@@ -1,0 +1,30 @@
+{% if include.provider == "google-drive" %}
+<div class="video-embed">
+  <iframe
+    src="https://drive.google.com/file/d/{{ include.id }}/preview"
+    allow="autoplay; fullscreen"
+    allowfullscreen
+    loading="lazy"
+    title="{{ include.title | default: 'Video' }}">
+  </iframe>
+</div>
+{% elsif include.provider == "youtube" %}
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"
+    title="{{ include.title | default: 'Video' }}">
+  </iframe>
+</div>
+{% elsif include.id %}
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+{% endif %}
