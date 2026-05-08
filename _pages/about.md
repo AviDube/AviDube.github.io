@@ -32,7 +32,7 @@ permalink: /about/
 
 Hey! I'm Avi — a Computer Engineering Master's student at **Carnegie Mellon University** and a Drone Researcher at **CMU AirLab**. My research sits at the intersection of physical AI and autonomous systems: integrating large language models, transformers, and vision systems to build robots that can reason about and act in the real world.
 
-At AirLab I'm enhancing **AirStack** — an open-source drone simulation platform built on NVIDIA Isaac Sim — and building a drone solution to autonomously monitor excavation progress for Japanese construction firm **Shimizu**. Before CMU, I founded **Codex Laboratories** and created **SWARM**, a cloud-based multi-agent drone simulation platform adopted by MIT Lincoln Laboratory, Alarm.com, and research institutions worldwide.
+At AirLab I'm enhancing **AirStack** — an open-source drone simulation platform built on NVIDIA Isaac Sim — and building a drone solution to autonomously monitor excavation progress for Japanese construction firm **Shimizu**. Before CMU, I founded **Codex Laboratories** and created **SWARM**, a cloud-based multi-agent drone simulation platform adopted by MIT Lincoln Laboratory and research institutions worldwide.
 
 Over three summers at **Saab**, I went from building acoustic sensor fusion models and Kafka data pipelines (2023), to designing photo-realistic Unreal Engine environments and computer vision systems for the US Navy's TSUNOMI project (2024), to training a **YOLOv11** object detection model on 10,000 synthetic images at **89% precision** and engineering a real-time asynchronous detection pipeline in Unreal Engine with C++ (2025). This summer I'm heading to **Aurora Innovation** to work on self-driving technology.
 
